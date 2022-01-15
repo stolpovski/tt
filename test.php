@@ -249,3 +249,5 @@ foreach ($items->getSortedByPrice() as $item) {
 }
 
 echo PHP_EOL . 'TOTAL: ' . number_format($items->getTotalPrice(), 2) . PHP_EOL;
+echo 'Console with controllers costs: ' . number_format($console->getTotalPrice(), 2) . PHP_EOL;
+
